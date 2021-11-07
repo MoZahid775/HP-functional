@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="App-header">
       <h1>Welcome to the Wizarding World of Harry Potter</h1>
-      <img src={"https://image.flaticon.com/icons/svg/135/135869.svg"} className="App-logo" alt="logo" />
+      <img src="https://cdn-icons-png.flaticon.com/512/135/135869.png" className="App-logo" alt="logo" />
     </header>
   )
   
