@@ -1,26 +1,28 @@
-import React, { Component } from 'react';
+import React from 'react'
 
-class MaraudersMap extends Component {
+export default function MaraudersMap(props) {
+
+console.log(props.WhatIsChosen)
 
 
-  
-  
-  render() {
-   
-    return (
-      <nav>
-        <h2>Houses of Hogwarts</h2>
-        <select id="map" >
-          <option value="All">All</option>
-          <option value="Gryffindor">Gryffindor</option>
-          <option value="Hufflepuff">Hufflepuff</option>
-          <option value="Ravenclaw">Ravenclaw</option>
-          <option value="Slytherin">Slytherin</option>
-        </select>
-      </nav>
-    );
+
+  let changeHandler = (event) => {
+   props.filterWizard(event.target.value) 
   }
 
+
+
+  return (
+    <nav>
+    <h2>Houses of Hogwarts</h2>
+    <select id="map" value={props.WhatIsChosen} onChange={changeHandler}>
+      <option value="All">All</option>
+      <option value="Gryffindor">Gryffindor</option>
+      <option value="Hufflepuff">Hufflepuff</option>
+      <option value="Ravenclaw">Ravenclaw</option>
+      <option value="Slytherin">Slytherin</option>
+    </select>
+  </nav>
+  )
 }
 
-export default MaraudersMap;

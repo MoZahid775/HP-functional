@@ -47,6 +47,22 @@
       "house": "Gryffindor",
       "image1": "https://fsmedia.imgix.net/21/fd/33/16/2844/4ec3/bae9/57d38001e216/sonserina.jpeg?rect=0%2C0%2C1920%2C959&dpr=2&auto=format%2Ccompress&w=650",
       "image2": "https://img1.looper.com/img/gallery/professor-mcgonagalls-entire-backstory-explained/intro-1582830670.jpg"
+    },
+    {
+      "name": "Fredrick diggery",
+      "wand": " beasley",
+      "image1": "https://im.vsco.co/aws-us-west-2/ceaab8/193965276/605e58d7ce87125237dc8adb/vsco605e58d8148f8.jpg?w=412&dpr=2.625",
+      "image2": "https://im.vsco.co/aws-us-west-2/ceaab8/193965276/605e58d7ce87125237dc8adb/vsco605e58d8148f8.jpg?w=412&dpr=2.625",
+      "house": "Gryffindor",
+      "id": 7
+    },
+    {
+      "name": "Gloricel",
+      "wand": "wild thank",
+      "image1": "https://im.vsco.co/aws-us-west-2/ceaab8/193965276/605e58d7ce87125237dc8adb/vsco605e58d8148f8.jpg?w=412&dpr=2.625",
+      "image2": "https://im.vsco.co/aws-us-west-2/ceaab8/193965276/605e58d7ce87125237dc8adb/vsco605e58d8148f8.jpg?w=412&dpr=2.625",
+      "house": "Ravenclaw",
+      "id": 8
     }
   ]
 }
