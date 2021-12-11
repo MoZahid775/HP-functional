@@ -6,9 +6,10 @@ import { useState } from 'react'
 export default function Wizard(props) {
 
 
-//  console.log(props.wizardsObj)
 
- let {house, name, wand, image1, image2} = props.wizardsObj
+
+ let {house, name, wand, image1, image2, id} = props.wizardsObj
+
 
  
  const [image, setImage]= useState(image2)
@@ -20,6 +21,21 @@ export default function Wizard(props) {
    }else{setImage(image2)}
    }
 
+
+//GRADUATE BUTTON-----------------------
+
+  let graduateHandler=() => {
+     fetch(`http://localhost:4000/wizards/${id}`, {
+      method: "DELETE",
+    })
+      .then((r) => r.json())
+      // .then(() => console.log("Deleted"));
+   
+      props.deleteWizard(id)
+
+
+
+  }
 
   return (
  
@@ -36,7 +52,7 @@ export default function Wizard(props) {
             <div className="card_bottom">
               <p className="house_name">{house}</p>
               <p className="description">Wand: {wand}</p>
-              <button >
+              <button onClick={graduateHandler} >
                 Graduate
               </button>
             </div>

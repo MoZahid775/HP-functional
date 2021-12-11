@@ -1,22 +1,6 @@
 {
   "wizards": [
     {
-      "id": 1,
-      "name": "Harry Potter",
-      "wand": "Phoenix Feather",
-      "house": "Gryffindor",
-      "image1": "http://www.univers-series.com/wp-content/uploads/2016/02/harrypotter.jpeg",
-      "image2": "https://img1.looper.com/img/uploads/2019/02/harry-potter.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Hermione Granger",
-      "wand": "Dragon Heartstring",
-      "house": "Gryffindor",
-      "image1": "https://upload.wikimedia.org/wikipedia/en/d/d3/Hermione_Granger_poster.jpg",
-      "image2": "https://vignette.wikia.nocookie.net/harrypotter/images/7/7e/Hermione-HBP-hermione-granger-16048675-1919-2560.jpg/revision/latest?cb=20140628051753"
-    },
-    {
       "id": 3,
       "name": "Ron Weasley",
       "wand": "Unicorn Tail Hair",
@@ -39,30 +23,6 @@
       "house": "Slytherin",
       "image1": "https://vignette.wikia.nocookie.net/villains/images/1/12/Snape-will-never-die-severus-snape-22970808-1600-2118.jpg/revision/latest?cb=20170304205903",
       "image2": "https://vignette.wikia.nocookie.net/harrypotter/images/a/a3/Severus_Snape.jpg/revision/latest?cb=20150307193047"
-    },
-    {
-      "id": 6,
-      "name": "Minerva McGonagall",
-      "wand": "Dragon Heartstring",
-      "house": "Gryffindor",
-      "image1": "https://fsmedia.imgix.net/21/fd/33/16/2844/4ec3/bae9/57d38001e216/sonserina.jpeg?rect=0%2C0%2C1920%2C959&dpr=2&auto=format%2Ccompress&w=650",
-      "image2": "https://img1.looper.com/img/gallery/professor-mcgonagalls-entire-backstory-explained/intro-1582830670.jpg"
-    },
-    {
-      "name": "Fredrick diggery",
-      "wand": " beasley",
-      "image1": "https://im.vsco.co/aws-us-west-2/ceaab8/193965276/605e58d7ce87125237dc8adb/vsco605e58d8148f8.jpg?w=412&dpr=2.625",
-      "image2": "https://im.vsco.co/aws-us-west-2/ceaab8/193965276/605e58d7ce87125237dc8adb/vsco605e58d8148f8.jpg?w=412&dpr=2.625",
-      "house": "Gryffindor",
-      "id": 7
-    },
-    {
-      "name": "Gloricel",
-      "wand": "wild thank",
-      "image1": "https://im.vsco.co/aws-us-west-2/ceaab8/193965276/605e58d7ce87125237dc8adb/vsco605e58d8148f8.jpg?w=412&dpr=2.625",
-      "image2": "https://im.vsco.co/aws-us-west-2/ceaab8/193965276/605e58d7ce87125237dc8adb/vsco605e58d8148f8.jpg?w=412&dpr=2.625",
-      "house": "Ravenclaw",
-      "id": 8
     }
   ]
 }

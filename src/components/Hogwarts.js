@@ -18,31 +18,46 @@ export default function Hogwarts() {
   }, [])
 
 
+//Add Wizard adds a new wizard to state
  let addWizard = (wizard) => {
    let copyOfWizards = [...wizards, wizard]
 
     setWizards(copyOfWizards)
  }
 
- let filterWizzard = (filter) => {
-    setWhatIsChosen(filter)
 
-    let filteredWizards = wizards.filter((wizardObj)=>{
-     return wizardObj.house == WhatIsChosen}
-      )
-      console.log(filteredWizards)
+// DELETE WIZARD removes a wizard from the front end
+  let deleteWizard =(id) => {
+    let removedArray = wizards.filter((wizard) => {return wizard.id !== id})
+
+       setWizards(removedArray)
+  }
+
+
+
+ let filterWizzard = (filter) => {
+ 
+    setWhatIsChosen(filter)
  }
 
 
+    let filteredWizards = wizards.filter((wizardObj)=>{
+     return wizardObj.house == WhatIsChosen}
+    )
 
-  console.log(wizards)
+
 
    let arrOfWizzards = wizards
+   if (WhatIsChosen !== "All"){
+     arrOfWizzards = filteredWizards
+   }
 
   return (
+    
+
     <main>
         <MaraudersMap WhatIsChosen={WhatIsChosen} filterWizard={filterWizzard}/>
-        <GreatHall wizards={arrOfWizzards}/>
+        <GreatHall wizards={arrOfWizzards} deleteWizard={deleteWizard}/>
         <SortingHat addWizard={addWizard} />
     </main>
   )

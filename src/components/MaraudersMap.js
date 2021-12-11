@@ -2,12 +2,10 @@ import React from 'react'
 
 export default function MaraudersMap(props) {
 
-console.log(props.WhatIsChosen)
-
-
+console.log(props.filterWizard)
 
   let changeHandler = (event) => {
-   props.filterWizard(event.target.value) 
+   props.filterWizard(event.target.value)
   }
 
 
